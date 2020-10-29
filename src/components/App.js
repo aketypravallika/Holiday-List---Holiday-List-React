@@ -8,7 +8,7 @@ class App extends Component {
            <ol key = "HolidayList">
 		{
 		cities.map((location,index)=>(
-	<li key=`{HolidayListItem${index+1}}`>{location}</li>
+	<li key={"location"+(index+1)}>{location}</li>
 	))
 		}
 	   	
