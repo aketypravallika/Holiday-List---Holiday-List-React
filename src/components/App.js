@@ -5,7 +5,7 @@ class App extends Component {
     render() {
        const cities = ["Goa","Amsterdam","New York","Darjeeling","Tokyo","Lonavala"]
         return(
-           <ol key = "HolidayList">
+           <ol>
 		{
 		cities.map((location,index)=>(
 	<li key={"location"+(index+1)}>{location}</li>
