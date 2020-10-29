@@ -3,12 +3,12 @@ import '../styles/App.css';
 
 class App extends Component {
     render() {
-       const cities = ["Goa","Amsterdam","New York","Darjeeling","Tokyo","Lonavala"]
+       const cities = ["Goa","Amsterdam","New York","Darjeeling","Tokyo","Lonavala"];
         return(
            <ol>
 		{
-		cities.map((location,index)=>(
-	<li key={"location"+(index+1)}>{location}</li>
+		cities.map((city,index)=>(
+	<li key={"location"+(index+1)}>{city}</li>
 	))
 		}
 	   	
